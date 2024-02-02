@@ -1,0 +1,55 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etNumber"
+        android:layout_width="300dp"
+        android:background="@drawable/smooth_corners"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/green"
+        android:ems="10"
+        android:hint="@string/number"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:autofillHints="" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etAmount"
+        android:layout_width="289dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/etNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="40dp"
+        android:autofillHints=""
+        android:background="@drawable/smooth_corners"
+        android:ems="10"
+        android:hint="@string/amount"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnStkpush"
+        android:layout_width="120dp"
+        android:background="@drawable/smooth_btn"
+        android:layout_height="50dp"
+        android:layout_below="@id/etAmount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/login"
+        android:textColor="@color/red"
+        />
+
+</RelativeLayout>
