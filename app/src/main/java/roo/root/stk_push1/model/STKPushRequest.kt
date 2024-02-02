@@ -11,6 +11,9 @@ data class STKPushRequest(
     val phoneNumber: String,
     val callBackURL: String,
     val accountReference: String,
-    val transactionDesc: String
-)
+    val transactionDesc: String,
+
+) {
+    val accessToken = "4VuTrBC4d8o2tiuLi9QImqKUzoBh"
+}
 
