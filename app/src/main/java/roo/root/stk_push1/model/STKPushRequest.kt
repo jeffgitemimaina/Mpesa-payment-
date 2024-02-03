@@ -14,6 +14,6 @@ data class STKPushRequest(
     val transactionDesc: String,
 
 ) {
-    val accessToken = "4VuTrBC4d8o2tiuLi9QImqKUzoBh"
+    val accessToken = "J3xwd7aEfvY3hPJsrtqAeu2AJrhP"
 }
 
